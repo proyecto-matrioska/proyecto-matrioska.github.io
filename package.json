@@ -5,9 +5,11 @@
   "scripts": {
     "start": "eleventy --serve --quiet",
     "build": "eleventy",
+    "deploy": "gh-pages -d docs",
     "setup-styles": "node setup-styles",
     "build-graph": "node build-graph-data",
     "prebuild-graph": "npm run setup-styles",
+    "predeploy": "npm run build",
     "prebuild": "npm run build-graph",
     "prestart": "npm run build-graph"
   },
@@ -23,6 +25,7 @@
     "markdown-it-regexp": "^0.4.0"
   },
   "dependencies": {
-    "@excalidraw/utils": "^0.1.2"
+    "@excalidraw/utils": "^0.1.2",
+    "gh-pages": "^6.0.0"
   }
 }

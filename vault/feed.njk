@@ -1,0 +1,30 @@
+---
+  permalink: feed.xml
+  eleventyExcludeFromCollections: true
+  layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ site.baseUrl }}">
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ permalink | absoluteUrl(site.baseUrl) }}" rel="self"/>
+  <link href="{{ site.baseUrl }}"/>
+  <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ site.baseUrl }}/</id>
+  <author>
+    <name>{{ site.author }}</name>
+    <email>{{ site.authorEmail }}</email>
+  </author>
+  {%- for post in collections.blog | reverse %}
+    {%- if post.fileSlug !== "bitacora"%}
+      {%- set absolutePostUrl = post.url | absoluteUrl(site.baseUrl) %}
+      <entry>
+        <title>{{ post.data.title }}</title>
+        <link href="{{ absolutePostUrl }}"/>
+        <updated>{{ post.date | dateToRfc3339 }}</updated>
+        <id>{{ absolutePostUrl }}</id>
+        <content xml:lang="{{ site.lang }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+      </entry>
+    {%- endif %}
+  {%- endfor %}
+</feed>

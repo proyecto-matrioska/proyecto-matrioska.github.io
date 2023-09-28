@@ -1,0 +1,32 @@
+---
+layout: html-wrapper
+eleventyImport:
+  collections: ["notes"]
+---
+
+<main>
+  <article>
+    <h1>Notas</h1>
+    <p class="post-date">Actualizado: {{ page.date | date: '%Y-%m-%d'}}</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Actualizado</th>
+          <th>Nota</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for post in collections.notes %} {% if post.fileSlug != "" %}
+        <tr>
+          <td>{{ post.date | date: '%Y-%m-%d' }}</td>
+          <td><a href="{{ post.url }}">{{ post.data.title }}</a></td>
+        </tr>
+        {% endif %} {% endfor %}
+      </tbody>
+    </table>
+
+    {{content}} {% include 'note-graph.html' %}
+  </article>
+</main>
+
+{% include 'footer.html' %}

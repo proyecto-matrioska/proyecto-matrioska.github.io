@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include 'head.html' %}
+  </head>
+  <body>
+    <nav class="logo-button">
+      <a href="/" class="page-header__logo" title="Inicio">
+        <img
+          class="light-theme"
+          src="{{ site.baseUrl }}/assets/logo-light.png"
+          alt="Logo Inicio"
+        />
+        <img
+          class="dark-theme"
+          src="{{ site.baseUrl }}/assets/logo-dark.png"
+          alt="Logo Inicio"
+        />
+      </a>
+    </nav>
+
+    <nav class="site-menu">
+      <a href="{{ site.baseUrl }}/bitacora">Blog</a>
+      <a href="{{ site.baseUrl }}/notas">Notas</a>
+      <a href="{{ site.baseUrl }}/notas/Proyecto Matrioska">Acerca de</a>
+    </nav>
+
+    {{content}}
+
+    <script>
+      <!--
+      const PAGE_URL = "{{ page.url }}".slice(0, -1);
+      -->
+    </script>
+    <script src="{{ site.baseUrl }}/assets/js/lib/force-graph.1.43.2.min.js"></script>
+    <script src="{{ site.baseUrl }}/assets/js/lib/excalidraw-utils.0.1.2.min.js"></script>
+    <script src="{{ site.baseUrl }}/assets/js/note-graph.js"></script>
+    <script src="{{ site.baseUrl }}/assets/js/transclude-excalidraw.js"></script>
+  </body>
+</html>

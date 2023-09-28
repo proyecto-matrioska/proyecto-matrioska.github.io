@@ -1,0 +1,28 @@
+{
+  "name": "eleventy-test",
+  "version": "1.0.0",
+  "description": "11ty template for Obsidian vault",
+  "scripts": {
+    "start": "eleventy --serve --quiet",
+    "build": "eleventy",
+    "setup-styles": "node setup-styles",
+    "build-graph": "node build-graph-data",
+    "prebuild-graph": "npm run setup-styles",
+    "prebuild": "npm run build-graph",
+    "prestart": "npm run build-graph"
+  },
+  "author": "Pedro A. Góngora <pedro.gongora@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-link-attributes": "^4.0.1",
+    "markdown-it-obsidian": "file:../markdown-it-obsidian",
+    "markdown-it-regexp": "^0.4.0"
+  },
+  "dependencies": {
+    "@excalidraw/utils": "^0.1.2"
+  }
+}

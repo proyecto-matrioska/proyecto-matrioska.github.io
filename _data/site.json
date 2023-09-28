@@ -1,0 +1,21 @@
+{
+  "title": "Proyecto Matrioska",
+  "description": "Plataforma de investigación sobre teoría de la información y filosofía de la computación",
+  "author": "Pedro Arturo Góngora Luna",
+  "authorEmail": "pedro.nO.zp4m.pl1z.gongora@gmail.com",
+  "baseUrl": "https://proyecto-matrioska.github.io",
+  "lang": "es",
+  "styles": {
+    "lightTextColor": "#262626",
+    "lightAccentColor": "#ff2b2b",
+    "lightBackgroundColor": "#fcf5e4",
+    "darkTextColor": "#c5b8a1",
+    "darkAccentColor": "#ff7b7b",
+    "darkBackgroundColor": "#262626",
+    "normalFont":  "\"iA Writer Quattro S\", sans-serif",
+    "headingsFont":"\"iA Writer Duo S\", sans-serif",
+    "monoFont":    "\"iA Writer Mono S\", monospace",
+    "uiFont":      "\"iA Writer Quattro S\", sans-serif",
+    "graphFont":    "iA Writer Quattro S"
+  }
+}

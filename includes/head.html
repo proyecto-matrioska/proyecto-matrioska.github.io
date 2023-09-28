@@ -1,0 +1,24 @@
+{% assign pageTitle = site.title %}
+
+{% if title != "" %}
+{% assign pageTitle = pageTitle | prepend: " | " | prepend: title %}
+{% endif %}
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<title>{{ pageTitle }}</title>
+<meta name="description" content="{{ site.description }}" />
+<link rel="shortcut icon" href="{{ site.baseUrl }}/assets/favicon.ico" type="image/x-icon" />
+
+<meta property="og:title" content="{{ pageTitle }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ page.url | prepend: site.baseUrl }}" />
+<meta property="og:image" content="{{ site.baseUrl }}/assets/matrioska.png" />
+<meta property="og:description" content="{{ site.description }}" />
+
+<link rel="canonical" href="{{ page.url | prepend: site.baseUrl }}" />
+
+<link rel="stylesheet" href="{{ site.baseUrl }}/assets/css/normalize.8.0.1.min.css" />
+<link rel="stylesheet" href="{{ site.baseUrl }}/assets/css/style.css" />

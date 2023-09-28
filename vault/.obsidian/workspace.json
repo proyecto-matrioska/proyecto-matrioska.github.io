@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "c8b2926f4592d01b",
+    "type": "split",
+    "children": [
+      {
+        "id": "500464c23729493e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20f1e93b04aec82b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notas/Informational Copyleft License.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d179b39f4c0c147",
+    "type": "split",
+    "children": [
+      {
+        "id": "3553ef016eb2b29b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "116dff65fedd974a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6cba869acb619ea1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "matriosh",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db6e5552107eba62",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "df7e3caa623dd929",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 462.5
+  },
+  "right": {
+    "id": "1a327d415ad57111",
+    "type": "split",
+    "children": [
+      {
+        "id": "f903c443efd9ee1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd702f93bd1900a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notas/Informational Copyleft License.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "19b6f6c279240d3e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notas/Informational Copyleft License.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1943bed6043f7609",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b1175e7b386539e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notas/Informational Copyleft License.md"
+              }
+            }
+          },
+          {
+            "id": "eabfdbe52b44b564",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "20f1e93b04aec82b",
+  "lastOpenFiles": [
+    "notas/Geometría.md",
+    "notas/Complejidad.md",
+    "notas/Alessio Moretti.md",
+    "notas/Álgebra.md",
+    "notas/Abstracción.md",
+    "bitacora/Vilém Flusser y la Matrioska informática.md",
+    "notas/Vilém Flusser.md",
+    "notas/Teoría de la oposición.md",
+    "notas/Teoría de la información.md",
+    "notas/Teoría de la computación.md",
+    "notas/Proyecto Matrioska.md",
+    "notas/Platón.md",
+    "notas/Pedro Arturo Góngora Luna.md",
+    "notas/no-Seminario.md",
+    "notas/Máquina de Turing.md",
+    "notas/Lorenz Demey.md",
+    "notas/Lógica.md",
+    "notas/Licencia y derechos de autor.md",
+    "notas/Jerarquía de Chomsky.md",
+    "notas/Inmaterialismo.md",
+    "notas/Informational Copyleft License.md",
+    "notas/Información.md",
+    "notas/index.md",
+    "notas/Hardware vs software.md",
+    "notas/Filosofía de la computación.md",
+    "notas/Fenomenología.md",
+    "Excalidraw/Palettes",
+    "Excalidraw/Scripts/Downloaded/Palette loader.svg",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw/Excalidraw.11tydata.js",
+    "Excalidraw",
+    "templates",
+    "media/matrioska-flusser_light_17.png",
+    "media/matrioska-flusser_light_16.png",
+    "media/matrioska-flusser_light_15.png",
+    "media/matrioska-flusser_light_14.png",
+    "media/matrioska-flusser_light_13.png",
+    "media/matrioska-flusser_light_12.png",
+    "media/matrioska-flusser_light_11.png",
+    "media/matrioska-flusser_light_10.png",
+    "media/matrioska-flusser_light_09.png",
+    "media",
+    "bitacora",
+    "notas"
+  ]
+}

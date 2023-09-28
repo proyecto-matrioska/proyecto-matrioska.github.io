@@ -1,0 +1,9 @@
+{
+  "showFrontmatter": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "notas",
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "media",
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true
+}

@@ -6,7 +6,7 @@ const conf = require('./_data/site.json')
 const vaultPath = process.cwd() + '/vault'
 const ignore = [
   '.git',
-  '_site',
+  'docs',
   'node_modules',
   '.obsidian',
   '_drafts',

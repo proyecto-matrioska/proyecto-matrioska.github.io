@@ -6,7 +6,7 @@ const Plugin = require('markdown-it-regexp')
 const defaultOptions = {
   baseUrl: '/',
   vaultPrefix: '',
-  ignore: ['.git', '_site', 'node_modules', '.obsidian', 'templates'],
+  ignore: ['.git', 'docs', 'node_modules', '.obsidian', 'templates'],
 }
 
 const obsidianLinkRE = /!?\[\[(([^\]#\|]*)(#[^\|\]]+)*(\|[^\]]*)*)\]\]/

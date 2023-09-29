@@ -1,0 +1,12 @@
+:root {
+  --light-text: #262626;
+  --light-accent: #ff2b2b;
+  --light-background: #fcf5e4;
+  --dark-text: #c5b8a1;
+  --dark-accent: #ff7b7b;
+  --dark-background: #262626;
+  --font-family: "iA Writer Quattro S", sans-serif;
+  --font-family-headings: "iA Writer Duo S", sans-serif;
+  --font-family-mono: "iA Writer Mono S", monospace;
+  --font-family-ui: "iA Writer Quattro S", sans-serif;
+}

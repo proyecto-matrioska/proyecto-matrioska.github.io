@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52d66400a0e1a2c9",
+            "id": "b4c2f4d68e4c87da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "bitacora/Metafísica de la información.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "bitacora/Metafísica de la información.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "bitacora/Metafísica de la información.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "bitacora/Metafísica de la información.md"
               }
             }
           },
@@ -148,7 +148,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -166,34 +167,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "52d66400a0e1a2c9",
+  "active": "b4c2f4d68e4c87da",
   "lastOpenFiles": [
+    "bitacora/index.md",
+    "bitacora/Metafísica de la información.md",
+    "Excalidraw/Metafísica de la información.excalidraw.md",
+    "bitacora/Vilém Flusser y la Matrioska informática.md",
+    "notas/Arquetipo.md",
+    "notas/Complejidad.md",
+    "notas/Información.md",
+    "notas/Dialéctica.md",
+    "notas/Dualidad.md",
+    "notas/Intensionalidad.md",
+    "notas/Estructura.md",
+    "notas/Género.md",
+    "notas/Patriarcado.md",
+    "notas/Plotino.md",
+    "notas/Zhou Dunyi.md",
+    "Excalidraw/Flusser y la Matrioska informática.excalidraw.md",
+    "notas/Metafísica.md",
+    "notas/Banalidad del mal.md",
+    "notas/Hanna Arendt.md",
     "notas/Informational Copyleft License.md",
+    "index.md",
     "Excalidraw/index.html",
     "notas/Geometría.md",
-    "notas/Complejidad.md",
     "notas/Alessio Moretti.md",
     "notas/Álgebra.md",
     "notas/Abstracción.md",
-    "bitacora/Vilém Flusser y la Matrioska informática.md",
     "notas/Vilém Flusser.md",
-    "notas/Teoría de la oposición.md",
-    "notas/Teoría de la información.md",
-    "notas/Teoría de la computación.md",
-    "notas/Proyecto Matrioska.md",
-    "notas/Platón.md",
-    "notas/Pedro Arturo Góngora Luna.md",
-    "notas/no-Seminario.md",
-    "notas/Máquina de Turing.md",
-    "notas/Lorenz Demey.md",
-    "notas/Lógica.md",
-    "notas/Licencia y derechos de autor.md",
-    "notas/Jerarquía de Chomsky.md",
-    "notas/Inmaterialismo.md",
-    "notas/Información.md",
-    "notas/index.md",
-    "notas/Hardware vs software.md",
-    "notas/Filosofía de la computación.md",
     "Excalidraw/Palettes",
     "Excalidraw/Scripts/Downloaded/Palette loader.svg",
     "Excalidraw/Scripts/Downloaded",

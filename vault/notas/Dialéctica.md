@@ -7,4 +7,4 @@ title: Dialéctica
 
 Actualizado: {{ date | date: '%Y-%m-%d' }} { .post-date }
 
-tags::
+tags:: [[notas/Metafísica|Metafísica]], [[notas/Dualidad|Dualidad]]

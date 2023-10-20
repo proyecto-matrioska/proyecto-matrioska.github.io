@@ -1,20 +1,92 @@
 {
   "recentFiles": [
     {
+      "basename": "Metafísica de la información",
+      "path": "bitacora/Metafísica de la información.md"
+    },
+    {
       "basename": "index",
-      "path": "index.md"
+      "path": "bitacora/index.md"
+    },
+    {
+      "basename": "Metafísica de la información.excalidraw",
+      "path": "Excalidraw/Metafísica de la información.excalidraw.md"
+    },
+    {
+      "basename": "Vilém Flusser y la Matrioska informática",
+      "path": "bitacora/Vilém Flusser y la Matrioska informática.md"
+    },
+    {
+      "basename": "Arquetipo",
+      "path": "notas/Arquetipo.md"
+    },
+    {
+      "basename": "Complejidad",
+      "path": "notas/Complejidad.md"
+    },
+    {
+      "basename": "Información",
+      "path": "notas/Información.md"
+    },
+    {
+      "basename": "Dialéctica",
+      "path": "notas/Dialéctica.md"
+    },
+    {
+      "basename": "Dualidad",
+      "path": "notas/Dualidad.md"
+    },
+    {
+      "basename": "Intensionalidad",
+      "path": "notas/Intensionalidad.md"
+    },
+    {
+      "basename": "Estructura",
+      "path": "notas/Estructura.md"
+    },
+    {
+      "basename": "Género",
+      "path": "notas/Género.md"
+    },
+    {
+      "basename": "Patriarcado",
+      "path": "notas/Patriarcado.md"
+    },
+    {
+      "basename": "Plotino",
+      "path": "notas/Plotino.md"
+    },
+    {
+      "basename": "Zhou Dunyi",
+      "path": "notas/Zhou Dunyi.md"
+    },
+    {
+      "basename": "Flusser y la Matrioska informática.excalidraw",
+      "path": "Excalidraw/Flusser y la Matrioska informática.excalidraw.md"
+    },
+    {
+      "basename": "Metafísica",
+      "path": "notas/Metafísica.md"
+    },
+    {
+      "basename": "Banalidad del mal",
+      "path": "notas/Banalidad del mal.md"
+    },
+    {
+      "basename": "Hanna Arendt",
+      "path": "notas/Hanna Arendt.md"
     },
     {
       "basename": "Informational Copyleft License",
       "path": "notas/Informational Copyleft License.md"
     },
     {
-      "basename": "Geometría",
-      "path": "notas/Geometría.md"
+      "basename": "index",
+      "path": "index.md"
     },
     {
-      "basename": "Complejidad",
-      "path": "notas/Complejidad.md"
+      "basename": "Geometría",
+      "path": "notas/Geometría.md"
     },
     {
       "basename": "Alessio Moretti",
@@ -27,10 +99,6 @@
     {
       "basename": "Abstracción",
       "path": "notas/Abstracción.md"
-    },
-    {
-      "basename": "Vilém Flusser y la Matrioska informática",
-      "path": "bitacora/Vilém Flusser y la Matrioska informática.md"
     },
     {
       "basename": "Vilém Flusser",
@@ -89,10 +157,6 @@
       "path": "notas/Inmaterialismo.md"
     },
     {
-      "basename": "Información",
-      "path": "notas/Información.md"
-    },
-    {
       "basename": "index",
       "path": "notas/index.md"
     },
@@ -117,10 +181,6 @@
       "path": "notas/Ensayo.md"
     },
     {
-      "basename": "Dialéctica",
-      "path": "notas/Dialéctica.md"
-    },
-    {
       "basename": "Copyleft",
       "path": "notas/Copyleft.md"
     },
@@ -139,34 +199,6 @@
     {
       "basename": "Basarab Nicolescu",
       "path": "notas/Basarab Nicolescu.md"
-    },
-    {
-      "basename": "Filosofía de la computación.excalidraw",
-      "path": "Excalidraw/Filosofía de la computación.excalidraw.md"
-    },
-    {
-      "basename": "Flusser y la Matrioska informática.excalidraw",
-      "path": "Excalidraw/Flusser y la Matrioska informática.excalidraw.md"
-    },
-    {
-      "basename": "note template",
-      "path": "templates/note template.md"
-    },
-    {
-      "basename": "Metafísica de la información",
-      "path": "bitacora/Metafísica de la información.md"
-    },
-    {
-      "basename": "Metafísica de la información.excalidraw",
-      "path": "Excalidraw/Metafísica de la información.excalidraw.md"
-    },
-    {
-      "basename": "index",
-      "path": "bitacora/index.md"
-    },
-    {
-      "basename": "Paleta Matrioska",
-      "path": "Excalidraw/Palettes/Paleta Matrioska.md"
     }
   ],
   "omittedPaths": [],

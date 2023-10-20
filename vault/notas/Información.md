@@ -1,5 +1,5 @@
 ---
-date: 2023-09-28
+date: 2023-10-20 12:00:00
 title: Información
 ---
 
@@ -32,5 +32,11 @@ Debemos tener cuidado con estas interpretaciones, pues hay que recordar que la i
 ## Información, abstracción, dialéctica y sentido
 
 En este nuevo enfoque, caracterizamos a la información y su procesamiento como un fenómeno de abstracción y significación del mundo.
+
+![[Excalidraw/Metafísica de la información.excalidraw.md#^group=ZWDUKq7sEg7hEXTjZsXMB|400]]
+
+![[Excalidraw/Metafísica de la información.excalidraw.md#^group=NAz02PxjnR-Qec5fRVHwf|400]]
+
+![[Excalidraw/Metafísica de la información.excalidraw.md#^group=Q1nqCrlTvp7T8VLWLv7ys|400]]
 
 tags:: [[notas/Claude Shannon|Claude Shannon]], [[notas/Vilém Flusser|Vilém Flusser]]

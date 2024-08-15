@@ -1,5 +1,5 @@
 ---
-date: 2024-08-16
+date: 2024-08-16 12:00:00
 title: Información de la metafísica
 ---
 

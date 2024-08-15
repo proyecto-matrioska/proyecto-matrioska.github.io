@@ -8,7 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4c2f4d68e4c87da",
+            "id": "6db62240d050af72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bitacora/Vilém Flusser y la Matrioska informática.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3caff0c1d1597349",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "45644c5f9d4df6c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bitacora/Información de la metafísica.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,10 +76,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "matriosh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -94,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bitacora/Metafísica de la información.md",
+                "file": "bitacora/Información de la metafísica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bitacora/Metafísica de la información.md",
+                "file": "bitacora/Información de la metafísica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bitacora/Metafísica de la información.md"
+                "file": "bitacora/Información de la metafísica.md"
               }
             }
           },
@@ -144,7 +171,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -167,14 +196,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b4c2f4d68e4c87da",
+  "active": "116dff65fedd974a",
   "lastOpenFiles": [
-    "bitacora/index.md",
     "bitacora/Metafísica de la información.md",
-    "Excalidraw/Metafísica de la información.excalidraw.md",
     "bitacora/Vilém Flusser y la Matrioska informática.md",
-    "notas/Arquetipo.md",
+    "bitacora/Información de la metafísica.md",
+    "Excalidraw/Flusser y la Matrioska informática.excalidraw.md",
+    "Excalidraw/Metafísica de la información.excalidraw.md",
+    "notas/Cuadro de oposición.md",
+    "Excalidraw/Información de la metafísica.excalidraw.md",
+    "bitacora/index.md",
     "notas/Complejidad.md",
+    "notas/Arquetipo.md",
     "notas/Información.md",
     "notas/Dialéctica.md",
     "notas/Dualidad.md",
@@ -184,7 +217,6 @@
     "notas/Patriarcado.md",
     "notas/Plotino.md",
     "notas/Zhou Dunyi.md",
-    "Excalidraw/Flusser y la Matrioska informática.excalidraw.md",
     "notas/Metafísica.md",
     "notas/Banalidad del mal.md",
     "notas/Hanna Arendt.md",
@@ -193,9 +225,6 @@
     "Excalidraw/index.html",
     "notas/Geometría.md",
     "notas/Alessio Moretti.md",
-    "notas/Álgebra.md",
-    "notas/Abstracción.md",
-    "notas/Vilém Flusser.md",
     "Excalidraw/Palettes",
     "Excalidraw/Scripts/Downloaded/Palette loader.svg",
     "Excalidraw/Scripts/Downloaded",

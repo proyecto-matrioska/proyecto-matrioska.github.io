@@ -1,28 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Información de la metafísica",
+      "path": "bitacora/Información de la metafísica.md"
+    },
+    {
       "basename": "Metafísica de la información",
       "path": "bitacora/Metafísica de la información.md"
-    },
-    {
-      "basename": "index",
-      "path": "bitacora/index.md"
-    },
-    {
-      "basename": "Metafísica de la información.excalidraw",
-      "path": "Excalidraw/Metafísica de la información.excalidraw.md"
     },
     {
       "basename": "Vilém Flusser y la Matrioska informática",
       "path": "bitacora/Vilém Flusser y la Matrioska informática.md"
     },
     {
-      "basename": "Arquetipo",
-      "path": "notas/Arquetipo.md"
+      "basename": "Flusser y la Matrioska informática.excalidraw",
+      "path": "Excalidraw/Flusser y la Matrioska informática.excalidraw.md"
+    },
+    {
+      "basename": "Metafísica de la información.excalidraw",
+      "path": "Excalidraw/Metafísica de la información.excalidraw.md"
+    },
+    {
+      "basename": "Cuadro de oposición",
+      "path": "notas/Cuadro de oposición.md"
+    },
+    {
+      "basename": "Información de la metafísica.excalidraw",
+      "path": "Excalidraw/Información de la metafísica.excalidraw.md"
+    },
+    {
+      "basename": "index",
+      "path": "bitacora/index.md"
     },
     {
       "basename": "Complejidad",
       "path": "notas/Complejidad.md"
+    },
+    {
+      "basename": "Arquetipo",
+      "path": "notas/Arquetipo.md"
     },
     {
       "basename": "Información",
@@ -59,10 +75,6 @@
     {
       "basename": "Zhou Dunyi",
       "path": "notas/Zhou Dunyi.md"
-    },
-    {
-      "basename": "Flusser y la Matrioska informática.excalidraw",
-      "path": "Excalidraw/Flusser y la Matrioska informática.excalidraw.md"
     },
     {
       "basename": "Metafísica",
@@ -187,18 +199,6 @@
     {
       "basename": "Claude Shannon",
       "path": "notas/Claude Shannon.md"
-    },
-    {
-      "basename": "Algoritmo",
-      "path": "notas/Algoritmo.md"
-    },
-    {
-      "basename": "Aristóteles",
-      "path": "notas/Aristóteles.md"
-    },
-    {
-      "basename": "Basarab Nicolescu",
-      "path": "notas/Basarab Nicolescu.md"
     }
   ],
   "omittedPaths": [],

@@ -1,5 +1,5 @@
 ---
-date: 2023-09-28
+date: 2024-08-26 12:00:00
 title: Proyecto Matrioska
 ---
 # Proyecto Matrioska
@@ -8,7 +8,9 @@ Actualizado: {{ date | date: '%Y-%m-%d' }} { .post-date }
 
 ## Acerca de
 
-Proyecto Matrioska es a la vez un proyecto y una una plataforma de investigación sobre [[notas/Teoría de la información|teoría de la información]]. Tiene los objetivos generales de ser un canal de difusión y divulgación, pero también de ser motor de la propia investigación. Matrioska es un proyecto vivo. El proceso es el proyecto. Es un seminario fuera del aula y puesto en Internet.
+Proyecto Matrioska es un seminario de investigación abierto sobre [[notas/Teoría de la información|teoría de la información]]. El objetivo principal es desarrollar una teoría filosófica de la información complementaria de las teorías matemáticas que ya existen.
+
+Es a la vez un proyecto y una una plataforma de investigación. También tiene los objetivos de ser un canal de difusión y divulgación, y a la vez ser motor de la propia investigación.
 
 Nuestro [[bitacora/index|blog]] y nuestro [canal de YouTube](https://www.youtube.com/@ProyectoMatrioska) articulan la parsimonia del proyecto. El resto de las [[notas/index|notas]] apoyan como contexto y referencia bibliográfica.
 
@@ -18,6 +20,7 @@ Puedes contactar con el [[notas/Pedro Arturo Góngora Luna|responsable del proye
 
 - [[bitacora/index|Blog]] | <a href="{{ site.baseUrl }}/feed.xml" target="_blank">RSS</a>
 - [Canal de YouTube](https://www.youtube.com/@ProyectoMatrioska)
+- [TikTok](https://www.tiktok.com/@proyectomatrioska)
 - [Facebook](https://www.facebook.com/elproyectomatrioska/)
 - [Instagram](https://www.instagram.com/elproyectomatrioska/)
 

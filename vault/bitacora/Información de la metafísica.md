@@ -1,11 +1,12 @@
 ---
 date: 2024-08-16 12:00:00
 title: Información de la metafísica
+update: 2024-09-10 12:00:00
 ---
 
 # Información de la metafísica
 
-Publicado: {{ date | date: '%Y-%m-%d'}} { .post-date }
+Publicado: {{ date | date: '%Y-%m-%d'}} <br />Actualizado: {{ update | date: '%Y-%m-%d'}} { .post-date }
 
 ## 0. Presentación
 
@@ -218,12 +219,12 @@ Pasamos del universo de las abstracciones cualitativas y cuantitativas al univer
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=LNmUGDExBkcGEo8YAget9|500]]
 
-La cantidad que se vuelve objeto de estudio es *medida*. Por el contrario, si lo que nos importa es la cantidad en sí, entonces una teoría de la cantidad a través de aquello que es objeto de estudio es *número*. Tenemos una nueva dualidad, Medida-número,  en el eje empírico del cuadro interno. En el eje intencional, una ontología a través de las cualidades es *atributo*. Pero si la teoría es la cualidad a través de la ontología, entonces tenemos *dualidad*. Esto nos lleva a una nueva dualidad intencional, Atributo-dualidad.
+La cantidad que se vuelve objeto de estudio es *medida*. Por el contrario, si lo que nos importa es la cantidad en sí, entonces una teoría de la cantidad a través de aquello que es objeto de estudio es *número*. Tenemos una nueva dualidad, Medida-número,  en el eje empírico del cuadro interno. En el eje intencional, una ontología a través de las cualidades es *atributo*. Pero si la teoría es la cualidad a través de la ontología, entonces tenemos *valor*. Esto nos lleva a una nueva dualidad intencional, Atributo-valor.
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=yj_4DxjLS_qKlcndhKP_P|700]]
 
 
-En la dialéctica intensional tenemos una intensionalidad cualitativa con una intención empírica también cualitativa, para conformar un universo de atributos a través de lo dual. En contraparte, en la dialéctica empírica tenemos una intensionalidad cuantitativa con intención empírica también cuantitativa, para crearnos ahora un universo de medidas a través de lo numérico. En este universo de cosas y formas los atributos estructuran intensionalmente nuestras mediciones. Mientras que la dualidad estructura intensionalmente a lo numérico.
+En la dialéctica intensional tenemos una intensionalidad cualitativa con una intención empírica también cualitativa, para conformar un universo de atributos a través de lo dual. En contraparte, en la dialéctica empírica tenemos una intensionalidad cuantitativa con intención empírica también cuantitativa, para crearnos ahora un universo de medidas a través de lo numérico. En este universo de cosas y formas los atributos estructuran intensionalmente nuestras mediciones. Mientras que la noción de valor estructura intensionalmente a lo numérico.
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=W1Yh2TE4yuX-_hDomOT4V|600]]
 
@@ -253,11 +254,11 @@ Nos referimos aquí a la noción categórica de entropía. En esta dimensión de
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=rr2VGRaF54FrqjqvBvxmG|500]]
 
-Observamos ahora lo interior, esto es, las herramientas empíricas de este universo discursivo informacional. Una teoría de la energía a través de las formas termina por describir *ondas*. Una teoría empírica de la forma a través de energía describe *partículas*. El universo de discurso empírico de lo masivo con estrategia de contenidos se logra con los *electrones*. En el converso, de los contenidos a través de los masivo emerge su constitución empírica, los *átomos*.
+Observamos ahora lo interior, esto es, las herramientas empíricas de este universo discursivo informacional. La experiencia de la energía comprendida como formas termina por describir *ondas*. La experiencia de las formas entendidas como energía describe *partículas*. El universo de discurso empírico de lo masivo con estrategia de contenidos se logra con los *electrones*. En el converso, de los contenidos a través de los masivo emerge su constitución empírica, los *átomos*.
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=D_c8VXgBfH4bj86oQutwB|700]]
 
-La dialéctica intensional nos dice que una teoría del contenido con estrategia de contenidos es en realidad una teoría de los electrones llevada a cabo con las reglas empíricas de los átomos. La empírica nos dice que una teoría de la forma con estrategia de formas es una teoría de las ondas con las reglas empíricas de las partículas.
+La dialéctica intensional nos dice que una teoría del contenido con estrategia de contenidos es en realidad una teoría de los electrones llevada a cabo con las reglas empíricas de los átomos. La empírica nos dice que una teoría de la forma con estrategia de formas es una teoría de las partículas con las reglas empíricas de las ondas.
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=bO62c4NbUHANTQaO-yaDu|600]]
 
@@ -267,7 +268,7 @@ Del universo de los contenidos masivos pasamos al de la información a través d
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=2MnojJ5S|700]]
 
-Los conceptos y categorías que empleamos se suceden de una interpretación subjetiva, pero el juego cualitativo formal que seguimos es estricto, simple y esquemático. La oposición logra simplificar las dos dimensiones de la dualidad compleja, junto con la dialéctica simplifica también la multidimensionalidad de la dualidad.
+Los conceptos y categorías que empleamos se suceden de una interpretación subjetiva, pero el juego cualitativo formal que seguimos es estricto, simple y esquemático. La oposición logra simplificar las dos dimensiones de la dualidad compleja y la multidimensionalidad dialéctica.
 
 La herramienta oposicional es en realidad bidimensional, en un sentido discursivo, no en un sentido estrictamente lógico-matemático. Trascendemos la polaridad lógica al considerar la intensionalidad de nuestros compuestos. Conceptualmente podemos pensar en esta capa intensional como la dimensión adicional. Visualmente lo representamos como un juego de colores y posiciones.
 

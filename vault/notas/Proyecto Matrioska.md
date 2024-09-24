@@ -1,5 +1,5 @@
 ---
-date: 2024-08-26 12:00:00
+date: 2024-09-24 12:00:00
 title: Proyecto Matrioska
 ---
 # Proyecto Matrioska
@@ -27,6 +27,10 @@ Puedes contactar con el [[notas/Pedro Arturo Góngora Luna|responsable del proye
 ## Licencia y derechos de autor
 
 En Matrioska apreciamos toda la cultura y nos guiamos siempre bajo principios máximos de libertad del conocimiento y respeto a sus autorxs. En ese ánimo hemos diseñado un esquema de licenciamiento para los contenidos del proyecto, lee más [[notas/Licencia y derechos de autor|aquí]].
+
+## Herramientas
+
+[[notas/Arca de noesis|Arca de Noesis]] es una herramienta de análisis y diseño con diagramas y esquemas oposicionales basada en Excalidraw.
 
 ## Apoyo y crowdfunding
 

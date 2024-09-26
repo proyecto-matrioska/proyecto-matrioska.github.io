@@ -1,7 +1,7 @@
 ---
 date: 2024-08-16 12:00:00
 title: Información de la metafísica
-update: 2024-09-10 12:00:00
+update: 2024-09-25 12:00:00
 ---
 
 # Información de la metafísica
@@ -254,15 +254,15 @@ Nos referimos aquí a la noción categórica de entropía. En esta dimensión de
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=rr2VGRaF54FrqjqvBvxmG|500]]
 
-Observamos ahora lo interior, esto es, las herramientas empíricas de este universo discursivo informacional. La experiencia de la energía comprendida como formas termina por describir *ondas*. La experiencia de las formas entendidas como energía describe *partículas*. El universo de discurso empírico de lo masivo con estrategia de contenidos se logra con los *electrones*. En el converso, de los contenidos a través de los masivo emerge su constitución empírica, los *átomos*.
+Observamos ahora lo interior, esto es, las herramientas empíricas de este universo discursivo informacional. La experiencia de la energía comprendida como formas termina por describir *ondas*. La experiencia de las formas entendidas como energía describe *partículas*. El universo de discurso empírico de lo masivo con estrategia de contenidos se logra con los *átomos*. En el converso, de los contenidos a través de los masivo emerge su constitución empírica, los *electrones*.
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=D_c8VXgBfH4bj86oQutwB|700]]
 
-La dialéctica intensional nos dice que una teoría del contenido con estrategia de contenidos es en realidad una teoría de los electrones llevada a cabo con las reglas empíricas de los átomos. La empírica nos dice que una teoría de la forma con estrategia de formas es una teoría de las partículas con las reglas empíricas de las ondas.
+La dialéctica intensional nos dice que una teoría del contenido con estrategia de contenidos es en realidad una teoría de los átomos llevada a cabo con las reglas empíricas de los electrones. La dialéctica empírica nos dice que una teoría de la forma con estrategia de formas es una teoría de las partículas con las reglas empíricas de las ondas.
 
 ![[Excalidraw/Información de la metafísica.excalidraw.md#^group=bO62c4NbUHANTQaO-yaDu|600]]
 
-Del universo de los contenidos masivos pasamos al de la información a través de mediciones de entropía, en lo exterior intensional. En lo interior empírico pasamos de las reglas de los átomos y las partículas a los arreglos de ondas y electrones. 
+Del universo de los contenidos masivos pasamos al de la información a través de mediciones de entropía, en lo exterior intensional. En lo interior empírico pasamos de las reglas de las de ondas y los electrones, a los arreglos de átomos y partículas. 
 
 ## 8. Escala y fractalidad
 

@@ -322,6 +322,11 @@ table thead tr th:first-child,
 table tbody tr td:first-child {
   padding-left: 0rem;
 }
+table.archive thead tr th:first-child,
+table.archive tbody tr td:first-child {
+  min-width: 8rem;
+  vertical-align: top;
+}
 table thead tr th:last-child,
 table tbody tr td:last-child {
   padding-right: 0rem;

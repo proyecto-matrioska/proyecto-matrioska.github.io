@@ -4,50 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "46b071e2575818f4",
+        "id": "6e1f26629d8633ab",
         "type": "tabs",
         "children": [
           {
-            "id": "6db62240d050af72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bitacora/Vilém Flusser y la Matrioska informática.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3caff0c1d1597349",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bitacora/Metafísica de la información.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45644c5f9d4df6c6",
+            "id": "f1a1597080221317",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "bitacora/Información de la metafísica.md",
                 "mode": "preview",
+                "source": false,
                 "backlinks": true,
-                "source": false
-              }
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Información de la metafísica"
+            }
+          },
+          {
+            "id": "bb374e7492de3c3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bitacora/Hacia una metafísica de la abstracción esquemática.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Hacia una metafísica de la abstracción esquemática"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,8 +74,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -82,7 +93,9 @@
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -90,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -98,14 +113,18 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 462.5
+    "width": 462.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a327d415ad57111",
@@ -121,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bitacora/Información de la metafísica.md",
+                "file": "bitacora/Hacia una metafísica de la abstracción esquemática.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +148,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Hacia una metafísica de la abstracción esquemática"
             }
           },
           {
@@ -138,10 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bitacora/Información de la metafísica.md",
+                "file": "bitacora/Hacia una metafísica de la abstracción esquemática.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Hacia una metafísica de la abstracción esquemática"
             }
           },
           {
@@ -151,8 +174,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -161,8 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bitacora/Información de la metafísica.md"
-              }
+                "file": "bitacora/Información de la metafísica.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Información de la metafísica"
             }
           },
           {
@@ -174,7 +206,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -182,8 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,35 +229,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "116dff65fedd974a",
+  "active": "f1a1597080221317",
   "lastOpenFiles": [
-    "bitacora/Metafísica de la información.md",
-    "bitacora/Vilém Flusser y la Matrioska informática.md",
+    "bitacora/Hacia una metafísica de la abstracción esquemática.md",
     "bitacora/Información de la metafísica.md",
+    "bitacora/Metafísica de la información.md",
+    "notas/Geometría.md",
+    "bitacora/Vilém Flusser y la Matrioska informática.md",
+    "Excalidraw/Información de la metafísica.excalidraw.md",
+    "notas/Proyecto Matrioska.md",
+    "notas/Arca de noesis.md",
+    "notas/Información.md",
+    "notas/Herramientas.md",
+    "notas/Teoría de la información.md",
+    "notas/ed.md",
+    "notas/Arquetipo.md",
+    "notas/Informational Copyleft License.md",
+    "notas/Claude Shannon.md",
+    "notas/Basarab Nicolescu.md",
     "Excalidraw/Flusser y la Matrioska informática.excalidraw.md",
     "Excalidraw/Metafísica de la información.excalidraw.md",
     "notas/Cuadro de oposición.md",
-    "Excalidraw/Información de la metafísica.excalidraw.md",
     "bitacora/index.md",
     "notas/Complejidad.md",
-    "notas/Arquetipo.md",
-    "notas/Información.md",
     "notas/Dialéctica.md",
     "notas/Dualidad.md",
     "notas/Intensionalidad.md",
     "notas/Estructura.md",
     "notas/Género.md",
-    "notas/Patriarcado.md",
-    "notas/Plotino.md",
-    "notas/Zhou Dunyi.md",
-    "notas/Metafísica.md",
-    "notas/Banalidad del mal.md",
-    "notas/Hanna Arendt.md",
-    "notas/Informational Copyleft License.md",
-    "index.md",
     "Excalidraw/index.html",
-    "notas/Geometría.md",
-    "notas/Alessio Moretti.md",
     "Excalidraw/Palettes",
     "Excalidraw/Scripts/Downloaded/Palette loader.svg",
     "Excalidraw/Scripts/Downloaded",

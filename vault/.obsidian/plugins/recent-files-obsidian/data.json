@@ -1,36 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Towards a complex theory of information - extended abstract",
+      "path": "bitacora/Towards a complex theory of information - extended abstract.md"
+    },
+    {
       "basename": "Información de la metafísica",
       "path": "bitacora/Información de la metafísica.md"
+    },
+    {
+      "basename": "Towards a complex theory of information.excalidraw",
+      "path": "Excalidraw/Towards a complex theory of information.excalidraw.md"
+    },
+    {
+      "basename": "index",
+      "path": "bitacora/index.md"
     },
     {
       "basename": "Hacia una metafísica de la abstracción esquemática",
       "path": "bitacora/Hacia una metafísica de la abstracción esquemática.md"
     },
     {
-      "basename": "Metafísica de la información",
-      "path": "bitacora/Metafísica de la información.md"
-    },
-    {
-      "basename": "Geometría",
-      "path": "notas/Geometría.md"
-    },
-    {
       "basename": "Vilém Flusser y la Matrioska informática",
       "path": "bitacora/Vilém Flusser y la Matrioska informática.md"
     },
     {
-      "basename": "Información de la metafísica.excalidraw",
-      "path": "Excalidraw/Información de la metafísica.excalidraw.md"
+      "basename": "Metafísica de la información",
+      "path": "bitacora/Metafísica de la información.md"
     },
     {
       "basename": "Proyecto Matrioska",
       "path": "notas/Proyecto Matrioska.md"
     },
     {
+      "basename": "Informational Copyleft License",
+      "path": "notas/Informational Copyleft License.md"
+    },
+    {
       "basename": "Arca de noesis",
       "path": "notas/Arca de noesis.md"
+    },
+    {
+      "basename": "Geometría",
+      "path": "notas/Geometría.md"
+    },
+    {
+      "basename": "Información de la metafísica.excalidraw",
+      "path": "Excalidraw/Información de la metafísica.excalidraw.md"
     },
     {
       "basename": "Información",
@@ -47,10 +63,6 @@
     {
       "basename": "Arquetipo",
       "path": "notas/Arquetipo.md"
-    },
-    {
-      "basename": "Informational Copyleft License",
-      "path": "notas/Informational Copyleft License.md"
     },
     {
       "basename": "Claude Shannon",
@@ -71,10 +83,6 @@
     {
       "basename": "Cuadro de oposición",
       "path": "notas/Cuadro de oposición.md"
-    },
-    {
-      "basename": "index",
-      "path": "bitacora/index.md"
     },
     {
       "basename": "Complejidad",
@@ -191,14 +199,6 @@
     {
       "basename": "index",
       "path": "notas/index.md"
-    },
-    {
-      "basename": "Hardware vs software",
-      "path": "notas/Hardware vs software.md"
-    },
-    {
-      "basename": "Filosofía de la computación",
-      "path": "notas/Filosofía de la computación.md"
     }
   ],
   "omittedPaths": [],

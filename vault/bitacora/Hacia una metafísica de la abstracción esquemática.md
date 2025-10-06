@@ -4,7 +4,7 @@ title: Hacia una metafísica de la abstracción esquemática
 ---
 # Hacia una metafísica de la abstracción esquemática
 
-Publicado: {{ date | date: '%Y-%m-%d'}}
+Publicado: {{ date | date: '%Y-%m-%d'}} { .post-date }
 
 ## 0
 

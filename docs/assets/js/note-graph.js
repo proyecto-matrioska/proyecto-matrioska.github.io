@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (!domContainer) return
 
-  fetch('/assets/graph-data.json')
+  fetch(`${ASSETS_PREFIX}/graph-data.json`)
     .then(response => response.json())
     .then(jsonData => {
       //console.log('graph data', jsonData)

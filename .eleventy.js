@@ -46,6 +46,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss)
 
   return {
+    pathPrefix: process.env.PATH_PREFIX || '/',
     dir: {
       input: './vault',
       output: './docs',

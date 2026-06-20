@@ -10,7 +10,7 @@
 
 <title>{{ pageTitle }}</title>
 <meta name="description" content="{{ site.description }}" />
-<link rel="shortcut icon" href="{{ site.baseUrl }}/assets/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{{ '/assets/favicon.ico' | url }}" type="image/x-icon" />
 
 <meta property="og:title" content="{{ pageTitle }}" />
 <meta property="og:type" content="article" />
@@ -20,5 +20,5 @@
 
 <link rel="canonical" href="{{ page.url | prepend: site.baseUrl }}" />
 
-<link rel="stylesheet" href="{{ site.baseUrl }}/assets/css/normalize.8.0.1.min.css" />
-<link rel="stylesheet" href="{{ site.baseUrl }}/assets/css/style.css" />
+<link rel="stylesheet" href="{{ '/assets/css/normalize.8.0.1.min.css' | url }}" />
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}" />

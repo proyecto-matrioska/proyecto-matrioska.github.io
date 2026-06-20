@@ -8,6 +8,24 @@ eleventyImport:
   <article>
     <h1>Notas</h1>
     <p class="post-date">Actualizado: {{ page.date | date: '%Y-%m-%d'}}</p>
+
+    <table class="archive">
+      <thead class="headerless">
+        <tr><th>Actualizado</th><th>Página</th></tr>
+      </thead>
+      <tbody>
+        {% for post in collections.notes %}
+          {% if post.fileSlug != "" and post.data.type == "page" %}
+          <tr>
+            <td>{{ post.date | date: '%Y-%m-%d' }}</td>
+            <td><a href="{{ post.url }}">{{ post.data.title }}</a></td>
+          </tr>
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h2>Índice</h2>
     <table class="archive">
       <thead>
         <tr>
@@ -16,12 +34,14 @@ eleventyImport:
         </tr>
       </thead>
       <tbody>
-        {% for post in collections.notes %} {% if post.fileSlug != "" %}
-        <tr>
-          <td>{{ post.date | date: '%Y-%m-%d' }}</td>
-          <td><a href="{{ post.url }}">{{ post.data.title }}</a></td>
-        </tr>
-        {% endif %} {% endfor %}
+        {% for post in collections.notes %}
+          {% if post.fileSlug != "" and post.data.type != "page" %}
+          <tr>
+            <td>{{ post.date | date: '%Y-%m-%d' }}</td>
+            <td><a href="{{ post.url }}">{{ post.data.title }}</a></td>
+          </tr>
+          {% endif %}
+        {% endfor %}
       </tbody>
     </table>
 

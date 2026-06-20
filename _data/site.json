@@ -17,6 +17,8 @@
     "headingsFont":"\"iA Writer Duo S\", sans-serif",
     "monoFont":    "\"iA Writer Mono S\", monospace",
     "uiFont":      "\"iA Writer Quattro S\", sans-serif",
-    "graphFont":    "iA Writer Quattro S"
+    "graphFont":    "iA Writer Quattro S",
+    "lightDimColor": "#b0a48e",
+    "darkDimColor":  "#4a4438"
   }
 }

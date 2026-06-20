@@ -18,6 +18,7 @@ const linkGRE = /!?\[\[(([^\]#\|]*)(#[^\|\]]+)*(\|[^\]]*)*)\]\]/g
 const linkRE = /!?\[\[(([^\]#\|]*)(#[^\|\]]+)*(\|[^\]]*)*)\]\]/
 const frontMatterRE = /^---(.|\r|\n|\s!(\r?\n---))+\r?\n---/
 const frontMatterTitleRE = /\r?\ntitle:.+\r?\n/
+const frontMatterTypeRE = /\r?\ntype:\s*(.+)\r?\n/
 let nextId = 1
 
 const min = (a, b) => (a < b ? a : b)
@@ -87,6 +88,24 @@ const extractFMTitle = filename => {
   return null
 }
 
+const extractFMType = filename => {
+  const content = fs.readFileSync(filename, { encoding: 'utf-8', flag: 'r' })
+  const contentMatch = content.match(frontMatterRE)
+  if (!contentMatch) return null
+  const fm = contentMatch[0] || ''
+  const m = fm.match(frontMatterTypeRE)
+  return m ? m[1].trim() : null
+}
+
+const hasBodyContent = filename => {
+  const content = fs.readFileSync(filename, { encoding: 'utf-8', flag: 'r' })
+  const withoutFM = content.replace(frontMatterRE, '')
+  const withoutTitle = withoutFM.replace(/^\s*#\s+.+\n/m, '')
+  const withoutTagsLine = withoutTitle.replace(/^tags::.*$/m, '')
+  const withoutDateLine = withoutTagsLine.replace(/^Actualizado:.+$/m, '').replace(/^Publicado:.+$/m, '')
+  return withoutDateLine.trim().length > 80
+}
+
 // find backlinks
 allMdFiles.forEach(file => {
   const backlinks = []
@@ -105,7 +124,10 @@ const graphData = {
   nodes: allMdFiles.map(file => ({
     id: nodeTag(file.id),
     name: extractFMTitle(file.fullpath) || file.filename.split('.md')[0],
-    val: min(1 + 1.1 * file.backlinks.length, 1),
+    val: Math.max(1, 1 + Math.sqrt(file.backlinks.length)),
+    type: extractFMType(file.fullpath)
+      || (file.url.startsWith('/bitacora/') ? 'essay' : null)
+      || (hasBodyContent(file.fullpath) ? 'concept' : 'tag'),
     url: file.filename === 'index.md' ? getIndexUrl(file.url) : file.url,
     links: file.links.map(link => link.linkToIds).map(nodeTag),
     backlinks: file.backlinks.map(nodeTag),

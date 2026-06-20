@@ -180,7 +180,7 @@ nav.site-menu a:active {
  ***************************************************/
 
 .note-graph {
-  height: 31.25rem;
+  height: 40rem;
   margin-top: 2rem;
 }
 .fullscreen-graph .note-graph {
@@ -340,4 +340,16 @@ table tbody tr td:last-child {
 .post-date {
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+  nav.logo-button > a > img {
+    width: 3rem;
+  }
+  nav.logo-button {
+    margin-top: calc((1.65 * 3rem / 2) - 1.5rem);
+  }
+  .note-graph {
+    height: 25rem;
+  }
 }

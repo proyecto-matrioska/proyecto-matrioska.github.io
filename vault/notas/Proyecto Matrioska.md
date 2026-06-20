@@ -1,6 +1,7 @@
 ---
 date: 2024-09-24 12:00:00
 title: Proyecto Matrioska
+type: page
 ---
 # Proyecto Matrioska
 

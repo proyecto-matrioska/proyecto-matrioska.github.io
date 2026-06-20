@@ -1,6 +1,7 @@
 ---
 date: 2023-09-28
 title: no-Seminario
+type: page
 ---
 
 # {{ title }}

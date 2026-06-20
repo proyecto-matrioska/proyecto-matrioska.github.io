@@ -31,13 +31,17 @@ module.exports = function (eleventyConfig) {
   })
   eleventyConfig.addCollection('notes', function (collectionApi) {
     const col = collectionApi.getFilteredByGlob('vault/**/*.md')
-    return col.sort((a, b) =>
-      toLower(a.fileSlug) < toLower(b.fileSlug)
+    const typeOrder = t => (t === 'page' ? 0 : 1)
+    return col.sort((a, b) => {
+      const ta = typeOrder(a.data.type)
+      const tb = typeOrder(b.data.type)
+      if (ta !== tb) return ta - tb
+      return toLower(a.fileSlug) < toLower(b.fileSlug)
         ? -1
         : toLower(a.fileSlug) > toLower(b.fileSlug)
         ? 1
         : 0
-    )
+    })
   })
   eleventyConfig.addPlugin(pluginRss)
 

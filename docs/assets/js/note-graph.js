@@ -39,6 +39,16 @@ document.addEventListener('DOMContentLoaded', () => {
         userHasDarkMode()
           ? data.styles.darkAccentColor
           : data.styles.lightAccentColor
+      const dimColor = () =>
+        userHasDarkMode()
+          ? data.styles.darkDimColor
+          : data.styles.lightDimColor
+      const isMobile = () => window.innerWidth < 600
+      const baseNodeColor = node => {
+        if (node.type === 'page') return highlightColor()
+        if (node.type === 'tag') return dimColor()
+        return normalColor()
+      }
       graph(domContainer)
         .width(
           PAGE_URL === ''
@@ -66,16 +76,17 @@ document.addEventListener('DOMContentLoaded', () => {
         .linkColor(link =>
           highlightLinks.has(link) ? highlightColor() : normalColor()
         )
-        .nodeRelSize(4)
+        .nodeRelSize(isMobile() ? 6 : 4)
         .nodeColor(node =>
           highlightNodes.has(node.id) ||
           node.url === PAGE_URL ||
           (node.url === '/' && PAGE_URL === '')
             ? highlightColor()
-            : normalColor()
+            : baseNodeColor(node)
         )
         .nodeCanvasObjectMode(() => 'after')
         .nodeCanvasObject((node, ctx, globalScale) => {
+          if (isMobile() && hoverNode !== node.id) return
           const label = node.name
           const fontSize = (hoverNode === node.id ? 16 : 13) / globalScale
           const fontFamily = data.styles.graphFont
@@ -84,9 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
           ctx.textAlign = 'center'
           ctx.textBaseline = 'middle'
           ctx.fillStyle =
-            hoverNode === node.id ? highlightColor() : normalColor()
+            hoverNode === node.id ? highlightColor() : baseNodeColor(node)
+          const isPageOnHome = node.type === 'page' && PAGE_URL === ''
           ctx.globalAlpha =
-            hoverNode === node.id ? 1.0 : min(1.0, (0.5 * globalScale) ** 4)
+            hoverNode === node.id ? 1.0
+            : isPageOnHome ? 1.0
+            : node.type === 'tag' ? min(0.7, (0.3 * globalScale) ** 4)
+            : min(1.0, (0.5 * globalScale) ** 4)
           ctx.fillText(label, node.x, node.y + nodeRadius + 6 / globalScale)
           ctx.globalAlpha = 1.0
         })

@@ -1,6 +1,7 @@
 ---
 date: 2023-09-28
 title: Pedro Arturo Góngora Luna
+type: page
 ---
 # Pedro Arturo Góngora Luna
 

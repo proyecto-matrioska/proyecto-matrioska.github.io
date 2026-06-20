@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
   <head>
+{% if site.gaTagId and eleventy.env.runMode !== 'serve' %}
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTHKB41T97"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaTagId }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'G-FTHKB41T97');
+  gtag('config', '{{ site.gaTagId }}');
 </script>
+{% endif %}
     {% include 'head.html' %}
   </head>
   <body>

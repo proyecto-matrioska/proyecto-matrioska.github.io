@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
   <head>
-{% if site.gaTagId and eleventy.env.runMode !== 'serve' %}
+{% if site.gaTagId and eleventy.env.runMode != 'serve' %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaTagId }}"></script>
 <script>

@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (!domContainer) return
 
-  fetch('/assets/graph-data.json')
+  fetch(`${ASSETS_PREFIX}/graph-data.json`)
     .then(response => response.json())
     .then(jsonData => {
       //console.log('graph data', jsonData)
@@ -39,6 +39,23 @@ document.addEventListener('DOMContentLoaded', () => {
         userHasDarkMode()
           ? data.styles.darkAccentColor
           : data.styles.lightAccentColor
+      const dimColor = () =>
+        userHasDarkMode()
+          ? data.styles.darkDimColor
+          : data.styles.lightDimColor
+      const isMobile = () => window.innerWidth < 600
+      const baseNodeColor = node => {
+        if (node.type === 'essay') return highlightColor()
+        if (node.type === 'tag') return dimColor()
+        return normalColor()
+      }
+      // essay ≥ 1, page/concept ≤ 0.9, tag ≤ 0.3 — guarantees essay > page > tag always
+      const effectiveVal = node =>
+        node.type === 'essay' ? node.val
+        : node.type === 'tag' ? Math.min(node.val * 0.15, 0.3)
+        : Math.min(node.val * 0.55, 0.9)
+      const isCurrentPage = node =>
+        node.url === PAGE_URL || (node.url === '/' && PAGE_URL === '')
       graph(domContainer)
         .width(
           PAGE_URL === ''
@@ -67,26 +84,40 @@ document.addEventListener('DOMContentLoaded', () => {
           highlightLinks.has(link) ? highlightColor() : normalColor()
         )
         .nodeRelSize(4)
+        .nodeVal(effectiveVal)
         .nodeColor(node =>
           highlightNodes.has(node.id) ||
           node.url === PAGE_URL ||
           (node.url === '/' && PAGE_URL === '')
             ? highlightColor()
-            : normalColor()
+            : baseNodeColor(node)
         )
         .nodeCanvasObjectMode(() => 'after')
         .nodeCanvasObject((node, ctx, globalScale) => {
+          const effVal = effectiveVal(node)
+          const nodeRadius = Math.sqrt((64 * effVal) / Math.PI)
+          if (isCurrentPage(node)) {
+            ctx.beginPath()
+            ctx.arc(node.x, node.y, nodeRadius + 2 / globalScale, 0, 2 * Math.PI)
+            ctx.strokeStyle = highlightColor()
+            ctx.lineWidth = 2 / globalScale
+            ctx.stroke()
+          }
+          //if (isMobile() && hoverNode !== node.id && !isCurrentPage(node)) return
           const label = node.name
           const fontSize = (hoverNode === node.id ? 16 : 13) / globalScale
           const fontFamily = data.styles.graphFont
-          const nodeRadius = Math.sqrt((64 * node.val) / Math.PI)
           ctx.font = `${fontSize}px "${fontFamily}"`
           ctx.textAlign = 'center'
           ctx.textBaseline = 'middle'
           ctx.fillStyle =
-            hoverNode === node.id ? highlightColor() : normalColor()
+            hoverNode === node.id ? highlightColor() : baseNodeColor(node)
+          const isPageOnHome = node.type === 'page' && PAGE_URL === ''
           ctx.globalAlpha =
-            hoverNode === node.id ? 1.0 : min(1.0, (0.5 * globalScale) ** 4)
+            hoverNode === node.id ? 1.0
+            : isPageOnHome ? 1.0
+            : node.type === 'tag' ? min(0.7, (0.3 * globalScale) ** 4)
+            : min(1.0, (0.5 * globalScale) ** 4)
           ctx.fillText(label, node.x, node.y + nodeRadius + 6 / globalScale)
           ctx.globalAlpha = 1.0
         })

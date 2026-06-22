@@ -45,10 +45,17 @@ document.addEventListener('DOMContentLoaded', () => {
           : data.styles.lightDimColor
       const isMobile = () => window.innerWidth < 600
       const baseNodeColor = node => {
-        if (node.type === 'page') return highlightColor()
+        if (node.type === 'essay') return highlightColor()
         if (node.type === 'tag') return dimColor()
         return normalColor()
       }
+      // essay ≥ 1, page/concept ≤ 0.9, tag ≤ 0.3 — guarantees essay > page > tag always
+      const effectiveVal = node =>
+        node.type === 'essay' ? node.val
+        : node.type === 'tag' ? Math.min(node.val * 0.15, 0.3)
+        : Math.min(node.val * 0.55, 0.9)
+      const isCurrentPage = node =>
+        node.url === PAGE_URL || (node.url === '/' && PAGE_URL === '')
       graph(domContainer)
         .width(
           PAGE_URL === ''
@@ -76,7 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .linkColor(link =>
           highlightLinks.has(link) ? highlightColor() : normalColor()
         )
-        .nodeRelSize(isMobile() ? 6 : 4)
+        .nodeRelSize(4)
+        .nodeVal(effectiveVal)
         .nodeColor(node =>
           highlightNodes.has(node.id) ||
           node.url === PAGE_URL ||
@@ -86,11 +94,19 @@ document.addEventListener('DOMContentLoaded', () => {
         )
         .nodeCanvasObjectMode(() => 'after')
         .nodeCanvasObject((node, ctx, globalScale) => {
-          if (isMobile() && hoverNode !== node.id) return
+          const effVal = effectiveVal(node)
+          const nodeRadius = Math.sqrt((64 * effVal) / Math.PI)
+          if (isCurrentPage(node)) {
+            ctx.beginPath()
+            ctx.arc(node.x, node.y, nodeRadius + 2 / globalScale, 0, 2 * Math.PI)
+            ctx.strokeStyle = highlightColor()
+            ctx.lineWidth = 2 / globalScale
+            ctx.stroke()
+          }
+          //if (isMobile() && hoverNode !== node.id && !isCurrentPage(node)) return
           const label = node.name
           const fontSize = (hoverNode === node.id ? 16 : 13) / globalScale
           const fontFamily = data.styles.graphFont
-          const nodeRadius = Math.sqrt((64 * node.val) / Math.PI)
           ctx.font = `${fontSize}px "${fontFamily}"`
           ctx.textAlign = 'center'
           ctx.textBaseline = 'middle'
